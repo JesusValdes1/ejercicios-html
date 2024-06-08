@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 4</title>
+    </head>
+
+    <body>
+        <h1>HELADERIA</h1>
+        <form>
+            <fieldset>
+                <legend>Datos cliente</legend>
+                <label for="nombre_cliente">Nombre cliente</label>
+                <input type="text" id="nombre_cliente"/>
+                <br/>
+
+                <label for="telefono_cliente">Telefono cliente</label>
+                <input type="tel" id="telefono_cliente"/>
+                <br/>
+
+                <label for="email_cliente">Email cliente</label>
+                <input type="email" id="email_cliente"/>
+                <br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Elige tu helado</legend>
+                <h2>Sabor</h2>
+                <input type="radio" name="sabor" id="chocolate" value="chocolate">Chocolate<br/>
+                <input type="radio" name="sabor" id="vainilla" value="vainilla">Vainilla<br/>
+                <input type="radio" name="sabor" id="mixto" value="mixto">Mixto<br/>
+
+                <h2>Recipiente</h2>
+                <input type="radio" name="recipiente" id="vaso" value="vaso">Vaso<br/>
+                <input type="radio" name="recipiente" id="cono" value="cono">Cono<br/>
+
+                <h2>Extras</h2>
+                <input type="checkbox" name="extras" id="chispas_chocolate" value="chispas_chocolate">Chispas de chocolate<br/>
+                <input type="checkbox" name="extras" id="chispas_vainilla" value="chispas_vainilla">Chispas de vainilla<br/>
+                <input type="checkbox" name="extras" id="chispas_mixto" value="chispas_mixto">Chispas de mixto<br/>
+
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
